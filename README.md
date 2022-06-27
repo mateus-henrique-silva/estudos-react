@@ -1,2 +1,2 @@
-# estudos-react
-Esse repositorio contem meus estudos de React desde o basico ao avançado
+# react studies
+This repository contains my React studies from basic to advanced
