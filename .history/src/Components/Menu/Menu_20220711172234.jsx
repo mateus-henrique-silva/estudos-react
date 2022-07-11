@@ -7,11 +7,11 @@ const Menu = (props) => (
     <nav>
       <ul>
        <li>
-       <Link to="/">Inicio</Link> 
+       <Link T="#">Inicio</Link> 
         </li>
 
         <li>
-        <Link to="/about">Sobre</Link> 
+          <a href="#">Sobre</a>
         </li>
       </ul>
     </nav>

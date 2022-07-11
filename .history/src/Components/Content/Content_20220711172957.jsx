@@ -7,12 +7,12 @@ const Content = (props) => {
   return (
     <main className="content">
       <Routes>
-        <Route path="/">
+        {/* <Route path="/">
           <Home />
         </Route>
         <Route path="/about">
           <About />
-        </Route>
+        </Route> */}
       </Routes>
     </main>
   );

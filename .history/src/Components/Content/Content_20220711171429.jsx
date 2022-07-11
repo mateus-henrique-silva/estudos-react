@@ -1,19 +1,19 @@
 import React from "react";
 import "./Content.css";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 import About from "../../Views/About";
 import Home from "../../Views/Home";
 const Content = (props) => {
   return (
     <main className="content">
-      <Routes>
-        <Route path="/">
-          <Home />
-        </Route>
+      <Switch>
         <Route path="/about">
           <About />
         </Route>
-      </Routes>
+        <Route path="/home">
+          <Home />
+        </Route>
+      </Switch>
     </main>
   );
 };

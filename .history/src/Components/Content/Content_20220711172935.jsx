@@ -6,14 +6,18 @@ import Home from "../../Views/Home";
 const Content = (props) => {
   return (
     <main className="content">
-      <Routes>
-        <Route path="/">
-          <Home />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-      </Routes>
+      {/* 
+    
+    
+    <Routes>
+     <Route path="/">
+        <Home />
+      </Route>
+      <Route path="/about">
+        <About />
+      </Route>
+     
+    </Routes> */}
     </main>
   );
 };

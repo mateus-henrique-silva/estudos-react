@@ -6,12 +6,12 @@ const Menu = (props) => (
   <aside className="Menu">
     <nav>
       <ul>
-       <li>
-       <Link to="/">Inicio</Link> 
-        </li>
+       <Link><li>
+          <a href="#">Inicio</a>
+        </li></Link> 
 
         <li>
-        <Link to="/about">Sobre</Link> 
+          <a href="#">Sobre</a>
         </li>
       </ul>
     </nav>
