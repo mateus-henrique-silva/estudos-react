@@ -4,7 +4,7 @@ import React from 'react'
 const Home = props => (
     <aside className="Home">
        <h1>Home</h1>
-        <p>Componente Home</p>
+        <p>Componente H</p>
     </aside>
 )
 
