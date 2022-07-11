@@ -7,8 +7,12 @@ const Content = (props) => {
   return (
     <main className="content">
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
+        <Route path="/" element={}>
+          
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
       </Routes>
     </main>
   );
